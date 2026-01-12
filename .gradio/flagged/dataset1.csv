@@ -1,0 +1,23 @@
+question,Answer,Sources,Scores,timestamp
+"does i have bp
+","Blood pressure is the force of blood pushing against artery walls.
+High blood pressure can increase the risk of heart disease and stroke.
+Diabetes is a chronic condition where blood sugar levels are too high.
+There are two main types: Type 1 and Type 2 diabetes.
+Common symptoms include increased thirst, frequent urination, and fatigue.
+Diabetes is a chronic condition where blood sugar levels are too high.
+There are two main types: Type 1 and Type 2 diabetes.
+Common symptoms include increased thirst, frequent urination, and fatigue.
+
+⚠️ Disclaimer: This is educational information only.","bp.txt, diabetes.txt","[1.3106777667999268, 1.7734254598617554, 3.4028234663852886e+38]",2026-01-11 10:14:30.241017
+"How to manage diabetes?
+","Diabetes is a chronic condition where blood sugar levels are too high.
+There are two main types: Type 1 and Type 2 diabetes.
+Common symptoms include increased thirst, frequent urination, and fatigue.
+Blood pressure is the force of blood pushing against artery walls.
+High blood pressure can increase the risk of heart disease and stroke.
+Diabetes is a chronic condition where blood sugar levels are too high.
+There are two main types: Type 1 and Type 2 diabetes.
+Common symptoms include increased thirst, frequent urination, and fatigue.
+
+⚠️ Disclaimer: This is educational information only.","bp.txt, diabetes.txt","[0.8102025985717773, 1.8131242990493774, 3.4028234663852886e+38]",2026-01-11 19:35:14.089219

@@ -1,0 +1,25 @@
+@app.post("/ask")
+def ask_question(request: QuestionRequest):
+    start_time = time.time()
+    question = request.question
+
+    result = generate_answer(question)
+
+    latency = time.time() - start_time
+
+    final_answer = result["answer"] + "\n\n⚠️ Disclaimer: This is educational information only."
+
+    save_log(
+        question=question,
+        answer=final_answer,
+        sources=result["sources"],
+        scores=result["scores"],
+        latency=latency
+    )
+
+    return {
+        "answer": final_answer,
+        "sources": result["sources"],
+        "similarity_scores": result["scores"],
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    }
